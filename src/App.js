@@ -3,6 +3,7 @@ import Counters from './components/counters';
 import NavBar from './components/navBar';
 
 
+
 class App extends Component {
 
   state = { 
@@ -50,6 +51,7 @@ handleIncreement = counter => {
     counters[index].value++;
     this.setState({counters});
 }
+
 
 handleDecreement = counter => {
   console.log('counter', counter);
